@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menubackground"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dim55dp"
+        android:gravity="center"
+        android:text="@string/title_activity_endgame"
+        android:textSize="@dimen/dim55dp" />
+
+    <Button
+        android:id="@+id/buttonHighScore"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim75dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:textSize="@dimen/dim35dp" />
+    
+    <Button
+        android:id="@+id/buttonLastScore"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim75dp"
+        android:layout_marginTop="@dimen/dim25dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:textSize="@dimen/dim35dp" />
+
+    <Button
+        android:id="@+id/buttonMainMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dim25dp"
+        android:text="@string/title_activity_mainmenu" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="boolTrue">true</bool>
+    <bool name="boolFalse">false</bool>
+    <item type="bool" name="ga_debug">false</item> 
+  	<item type="bool" name="ga_auto_activity_tracking">true</item>
+</resources>

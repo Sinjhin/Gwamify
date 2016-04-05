@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menubackground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim5dp"
+        android:gravity="center"
+        android:scrollHorizontally="@bool/boolFalse"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/dim45dp" />
+
+    <Button
+        android:id="@+id/buttonNewGame"
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim15dp"
+        android:layout_marginRight="@dimen/dim15dp"
+        android:layout_marginTop="@dimen/dim10dp"
+        android:text="@string/menu_newgame"
+        android:textSize="@dimen/dim25dp" />
+    
+    <Button
+        android:id="@+id/buttonSetKeyboard"
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim25dp"
+        android:layout_marginRight="@dimen/dim25dp"
+        android:layout_marginTop="@dimen/dim2dp"
+        android:text="@string/menu_setkeyboard"
+        android:textSize="@dimen/dim25dp" />
+    
+    <Button
+        android:id="@+id/buttonLeaderboards"
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim35dp"
+        android:layout_marginRight="@dimen/dim35dp"
+        android:layout_marginTop="@dimen/dim2dp"
+        android:text="@string/menu_leaderboards"
+        android:textSize="@dimen/dim25dp" />
+    
+    <Button
+        android:id="@+id/buttonSettings"
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim45dp"
+        android:layout_marginRight="@dimen/dim45dp"
+        android:layout_marginTop="@dimen/dim2dp"
+        android:text="@string/menu_settings"
+        android:textSize="@dimen/dim25dp" />
+    
+    <Button
+        android:id="@+id/buttonQuit"
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim55dp"
+        android:layout_marginRight="@dimen/dim55dp"
+        android:layout_marginTop="@dimen/dim2dp"
+        android:text="@string/menu_quit"
+        android:textSize="@dimen/dim25dp" />
+
+</LinearLayout>

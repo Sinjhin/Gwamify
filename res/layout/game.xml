@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	
+    <TextView
+        android:id="@+id/textViewDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:text="@string/testWords"
+        android:scrollbars = "vertical"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+    
+    <EditText
+        android:id="@+id/editTextInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:scrollbars = "vertical"
+        android:textSize="19sp"
+        android:hint="@string/hint"
+        android:inputType="none"
+        android:text="@string/empty" >
+
+        <requestFocus />
+    </EditText>
+
+
+</LinearLayout>
